@@ -7,8 +7,7 @@ class WeatherType(Enum):
     FOGGY = "Foggy"
 
 class Weather:
-    common_info = "Common Weather Information"
-    def __init__(self, day, city, country, temp, humidity, wind_speed, weather_type):
+      def __init__(self, day, city, country, temp, humidity, wind_speed, weather_type):
         self.day = day
         self.city = city
         self.country = country
