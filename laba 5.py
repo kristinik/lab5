@@ -38,7 +38,6 @@ class WeatherCalendar:
     def sort_weather_entries_by_day(self):
         self.weather_entries.sort(key=lambda x: x.day)
 
-# Приклад використання
 if __name__ == "__main__":
     weather_entry1 = Weather(day="2023-11-13", city="Lviv", country="Ukraine", temp=20, humidity=75, wind_speed=10, weather_type=WeatherType.SUNNY)
     weather_entry2 = Weather(day="2023-11-13", city="Lviv", country="Ukraine", temp=18, humidity=85, wind_speed=8, weather_type=WeatherType.RAINY)
